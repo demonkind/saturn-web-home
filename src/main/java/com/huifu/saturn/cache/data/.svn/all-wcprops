@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/trunk/!svn/ver/864/saturn-archetype-project/saturn-jar/saturn-web-home/src/main/java/com/huifu/saturn/cache/data
+END
+CPCacheManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/trunk/!svn/ver/864/saturn-archetype-project/saturn-jar/saturn-web-home/src/main/java/com/huifu/saturn/cache/data/CPCacheManager.java
+END
+Convertor.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/trunk/!svn/ver/864/saturn-archetype-project/saturn-jar/saturn-web-home/src/main/java/com/huifu/saturn/cache/data/Convertor.java
+END
+CPCacheManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/trunk/!svn/ver/864/saturn-archetype-project/saturn-jar/saturn-web-home/src/main/java/com/huifu/saturn/cache/data/CPCacheManagerImpl.java
+END
+CPCacheReturn.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/trunk/!svn/ver/864/saturn-archetype-project/saturn-jar/saturn-web-home/src/main/java/com/huifu/saturn/cache/data/CPCacheReturn.java
+END
+CacheDataException.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/trunk/!svn/ver/864/saturn-archetype-project/saturn-jar/saturn-web-home/src/main/java/com/huifu/saturn/cache/data/CacheDataException.java
+END
+HessianConvertor.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/trunk/!svn/ver/864/saturn-archetype-project/saturn-jar/saturn-web-home/src/main/java/com/huifu/saturn/cache/data/HessianConvertor.java
+END

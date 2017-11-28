@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/trunk/!svn/ver/864/saturn-archetype-project/saturn-jar/saturn-web-home/src/main/java/com/huifu/saturn/common/log
+END
+Logger.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/trunk/!svn/ver/864/saturn-archetype-project/saturn-jar/saturn-web-home/src/main/java/com/huifu/saturn/common/log/Logger.java
+END
+LoggerWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/trunk/!svn/ver/864/saturn-archetype-project/saturn-jar/saturn-web-home/src/main/java/com/huifu/saturn/common/log/LoggerWrapper.java
+END
+MessageUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/trunk/!svn/ver/864/saturn-archetype-project/saturn-jar/saturn-web-home/src/main/java/com/huifu/saturn/common/log/MessageUtil.java
+END
+LoggerFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/trunk/!svn/ver/864/saturn-archetype-project/saturn-jar/saturn-web-home/src/main/java/com/huifu/saturn/common/log/LoggerFactory.java
+END
+LoggerUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/trunk/!svn/ver/864/saturn-archetype-project/saturn-jar/saturn-web-home/src/main/java/com/huifu/saturn/common/log/LoggerUtil.java
+END

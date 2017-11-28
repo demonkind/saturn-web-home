@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:jee="http://www.springframework.org/schema/jee"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+            http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-2.0.xsd"
+           >
+   	
+   	<bean name="sessionRequestContextFactory"
+		class="com.huifu.saturn.web.common.session.request.SessionRequestContextFactory"
+		init-method="init" >
+		 <property name="cookieDomainName" value="${cookie_domain}"/>
+		 <property name="cpcacheAddr" value="${cpcache_addr}"/> 
+		 <property name="slaveCacheAddr" value="${slave_cpcache_addr}"/>     
+		 <property name="sessionCookiePath" value="/"/> 
+		 <property name="exp" value="${session_expire_time}"/> 
+	</bean>
+	<bean id="configCenterTag" class="com.huifu.webapp.util.ConfigCenterTag">
+	</bean>
+	
+	<bean id="logonTag" class="com.huifu.webapp.util.LogonTag">
+	</bean>
+	
+	
+</beans>

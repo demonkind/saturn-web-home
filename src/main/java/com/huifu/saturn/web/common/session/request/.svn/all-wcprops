@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/trunk/!svn/ver/5047/saturn-archetype-project/saturn-jar/saturn-web-home/src/main/java/com/huifu/saturn/web/common/session/request
+END
+SessionRequestContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/trunk/!svn/ver/864/saturn-archetype-project/saturn-jar/saturn-web-home/src/main/java/com/huifu/saturn/web/common/session/request/SessionRequestContext.java
+END
+session.xml
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/trunk/!svn/ver/207/saturn-archetype-project/saturn-jar/saturn-web-home/src/main/java/com/huifu/saturn/web/common/session/request/session.xml
+END
+SessionConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/trunk/!svn/ver/864/saturn-archetype-project/saturn-jar/saturn-web-home/src/main/java/com/huifu/saturn/web/common/session/request/SessionConfig.java
+END
+SessionRequestContextFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/trunk/!svn/ver/864/saturn-archetype-project/saturn-jar/saturn-web-home/src/main/java/com/huifu/saturn/web/common/session/request/SessionRequestContextFactory.java
+END
+DefaultSessionConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/trunk/!svn/ver/864/saturn-archetype-project/saturn-jar/saturn-web-home/src/main/java/com/huifu/saturn/web/common/session/request/DefaultSessionConfig.java
+END

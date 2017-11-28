@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="GB2312"?>
+<configuration>
+	<session>
+		<cookie>
+			#if($!session_cookieName)
+			<name>${session_cookieName}</name>
+			#else
+			<name>ALIPAYJSESSIONID</name>
+			#end
+			<maxAge>0</maxAge>
+			<domain>.$tdbmsession_domain</domain>
+		</cookie>
+		<!-- 采用哪种session的实现方式com.alipay.common.webx.session.request.internal.DefaultSessionImpl-->
+		<implClassName>$tdbmsession_impl</implClassName>
+		<model>
+			<name>ALIPAY_MODEL</name>
+		</model>
+		<touch>
+			<always>true</always>
+		</touch>
+		<pool>
+			<maxActive>10</maxActive>
+			<maxTotal>10</maxTotal>
+		</pool>
+		<!-- 存取规则 -->
+		<accessRule>$session_access_rule</accessRule>
+		<!-- 只放在本地session的name列表 -->
+		<onlyLocalNames>
+			SOFA_SECURITY_HTTP_ONLY\,_forms_in_session_token\,_securityTokens\,_stepGroupTokenObject\,_sessionToken\,_stepGroupToken\,_requestStepGroupObject\,_session_mainDomain_token
+		</onlyLocalNames>
+		<!-- session id生成器 -->
+		<idbroker>
+			<class>com.alipay.common.webx.session.tdbm.TDBMSessionIDBroker</class>
+			<length>30</length>
+			<hostName>$tdbmsession_hostname</hostName>
+		</idbroker>
+		<!-- 单位是秒 -->
+		<maxInactiveInterval>$tdbmsession_maxInactiveInterval</maxInactiveInterval>
+		<store>
+			<TDBMStore>
+				<class>com.alipay.common.webx.session.tdbm.TDBMStore</class>
+				<match>*</match>
+				<cacheEnabled>true</cacheEnabled>
+				<configServerList>$tdbmsession_configServerList</configServerList>
+				<configReadInterval>$tdbmsession_configReadInterval
+				</configReadInterval>
+				<connectTimeout>$tdbmsession_connectTimeout</connectTimeout>
+				<groupName>group1</groupName>
+				<isWaitConfigServer>true</isWaitConfigServer>
+				<class>
+					<convertor>com.alipay.sofa.platform.cache.data.HessianConvertor</convertor>
+					<hashStrategy>com.alipay.sofa.platform.cache.strategry.impl.ConsistentHashBaseServerStrategy</hashStrategy>
+				</class>
+			</TDBMStore>
+		</store>
+	</session>
+</configuration>
